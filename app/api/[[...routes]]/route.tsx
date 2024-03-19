@@ -43,6 +43,7 @@ app.transaction('/mint', (c) => {
     abi: contractAbi.output.abi,
     chainId: 'eip155:84532',
     functionName: 'mint',
+    args:['0x2Fd0BD0d1c846682F3730cB3F6c22052B43495A9', 0, 1, `0x`],
     to: '0x62958ef2000d25E1c9BF52659777cBacaBB67920',
   })
 })
