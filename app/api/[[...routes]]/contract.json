@@ -432,28 +432,7 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "account",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "id",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					},
-					{
-						"internalType": "bytes",
-						"name": "data",
-						"type": "bytes"
-					}
-				],
+				"inputs": [],
 				"name": "mint",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -836,7 +815,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contract-eeb2fa7779.sol": "Hats"
+			"contract-d00947a179.sol": "Hats"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -970,12 +949,12 @@
 				"dweb:/ipfs/QmQyRpyPRL5SQuAgj6SHmbir3foX65FJjbVTTQrA2EFg6L"
 			]
 		},
-		"contract-eeb2fa7779.sol": {
-			"keccak256": "0xcc26afb3b5effd9451fad189f7b4e27cb40eedb9f436e8c117aec4e37f7cfa2a",
+		"contract-d00947a179.sol": {
+			"keccak256": "0x3c538c652bb97e63defed12533736546a1f25861478bfb35e3f1975984ec88d9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f3cd106182b69d7c7c9941aaa8f487af6d7143f23bc6c2a4f6591cc4b7afa29c",
-				"dweb:/ipfs/QmTe7HupyS2WvuXJRW8BsMLeBrcyEBPuT5iLdnthPKD1df"
+				"bzz-raw://b6c8f9c1a5c45b17b337de48345ee52346c9afed1575fb16557968ab0e865172",
+				"dweb:/ipfs/Qmdd34eobzuQ4JeyrcBaTeLHwkiYGJMy9LbE5TLoXDx6Jn"
 			]
 		}
 	},
