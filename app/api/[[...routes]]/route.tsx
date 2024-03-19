@@ -12,6 +12,7 @@ app.frame('/', (c) => {
   return c.res({
     action: '/finish',
     image: "https://dweb.mypinata.cloud/ipfs/QmSYN7KT847Nado3fxFafYZgG6NXTMZwbaMvU9jhu5nPmJ",
+    imageAspectRatio: "1:1",
     intents: [
       <Button.Transaction target="/mint">Mint</Button.Transaction>,
     ]
@@ -20,7 +21,8 @@ app.frame('/', (c) => {
  
 app.frame('/finish', (c) => {
   return c.res({
-    image: "https://dweb.mypinata.cloud/ipfs/QmUx3kQH4vR2t7mTmW3jHJgJgJGxjoBsMxt6z1fkZEHyHJ"
+    image: "https://dweb.mypinata.cloud/ipfs/QmUx3kQH4vR2t7mTmW3jHJgJgJGxjoBsMxt6z1fkZEHyHJ",
+    imageAspectRatio: "1:1",
   })
 })
  
